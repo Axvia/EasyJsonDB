@@ -10,7 +10,7 @@ class Selee {
         this.selee = selee
         this.storage = require('./database/storage.json')
         this.path = './database/storage.json'
-        setInterval(this.parse, 5000) // You can set it to 12 hours or 1 day or 1 week
+        setInterval(this.parse, 43200000) // You can set it to 12 hours or 1 day or 1 week
     }
     add(item, number) {
         if (typeof number !== 'number') return Callback("Number not string")

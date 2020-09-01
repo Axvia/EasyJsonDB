@@ -2,6 +2,7 @@
 A module for JSON database
 
 
+```
 Prepare:
 1. Create new folder and name it 'Selee' or whatever youwant.
   📁 Selee
@@ -22,4 +23,4 @@ Prepare:
       🗄️ storage.json
     🗄️ selee.js
     🗄️ apps.js
-    
+```

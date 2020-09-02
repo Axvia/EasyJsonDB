@@ -32,14 +32,14 @@ Prepare:
   
   // Add new item and setup the number
     // The number will changed if you using the same name/key
-  db.add("Selee", 100)
+  db.add("Selee", 1000)
     // The output will be like this
     {
-        "Selee": 100
+        "Selee": 1000
     }
   
   // Subtract the number
-   db.subtract("Selee", 5000)
+   db.subtract("Selee", 100)
 
   // Set the item to array
   const newArray = [ "Example" ]

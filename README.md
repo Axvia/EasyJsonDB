@@ -1,45 +1,45 @@
-# Selee
+# EasyJsonDB
 A simple module for JSON database. with auto backup every 12 hours.
 
 
 ```
 Prepare:
-1. Create new folder and name it as 'Selee' or whatever youwant.
-  📁 Selee
-2. Put the file 'selee.js' inside folder 'Selee'
-  📁 Selee
-    🗄️ selee.js
+1. Create new folder and name it as 'EasyJsonDB' or whatever youwant.
+  📁 EasyJsonDB
+2. Put the file 'EasyJsonDB.js' inside folder 'EasyJsonDB'
+  📁 EasyJsonDB
+    🗄️ EasyJsonDB.js
     🗄️ apps.js
-3. Inside folder 'Selee', create new folders again
-  📁 Selee
+3. Inside folder 'EasyJsonDB', create new folders again
+  📁 EasyJsonDB
     📁 backup
     📁 database
-    🗄️ selee.js
+    🗄️ EasyJsonDB.js
     🗄️ apps.js
 4. Inside folder 'database', create new file and name it as 'storage.json'
-  📁 Selee
+  📁 EasyJsonDB
     📁 backup
     📁 database
       🗄️ storage.json
-    🗄️ selee.js
+    🗄️ EasyJsonDB.js
     🗄️ apps.js
 ```
 
 ```js
 //Usage:
-  const Selee = require('./selee') // Search the right location that where you put the file
-  const db = new Selee()
+  const EasyJsonDB = require('./EasyJsonDB') // Search the right location that where you put the file
+  const db = new EasyJsonDB()
   
   // Add new item and setup the number
     // The number will changed if you using the same name/key
-  db.add("Selee", 1000)
+  db.add("EasyJsonDB", 1000)
     // The output will be like this
     {
-        "Selee": 1000
+        "EasyJsonDB": 1000
     }
   
   // Subtract the number
-   db.subtract("Selee", 100)
+   db.subtract("EasyJsonDB", 100)
 
   // Set the item to array
   const newArray = [ "Example" ]
